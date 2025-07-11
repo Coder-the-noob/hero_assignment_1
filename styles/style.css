@@ -70,6 +70,7 @@ nav div{
 .banner-content{
     
     text-align: center;
+    margin-bottom: 50px;
     
 }
 
@@ -104,4 +105,51 @@ nav div{
 
 .focus-btn:hover{
     background-color:  rgba(78, 71, 255, 0.8);
+}
+
+.launch-btn{
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 220px;
+    height: 48px;
+    font-size: 16px;
+}
+
+.launch-btn:hover{
+    background-color:  rgba(78, 71, 255, 0.8);
+}
+
+/* main section */
+
+main{
+    background-color: #F5F8FF;
+    padding: 30px 20px;
+}
+
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 220px;
+}
+
+.action-content h2{
+    font-size: 42px;
+    color: #252432;
+    margin-bottom: 20px;
+}
+
+.action-content p{
+    font-size: 22px;
+    color: rgb(37, 24, 34, 50%);
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.action img{
+    width: 400px;
+    height: 325px;
+    border-radius: 48px;
 }

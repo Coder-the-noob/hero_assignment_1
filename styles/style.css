@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 }
 
@@ -64,6 +65,7 @@ nav div{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 40px 20px;
+    margin: 0 auto;
     
 }
 
@@ -132,7 +134,8 @@ main{
     justify-content: center;
     align-items: center;
     margin-top: 100px;
-    gap: 220px;
+    gap: 395px;
+    
 }
 
 .action-content h2{
@@ -152,4 +155,47 @@ main{
     width: 400px;
     height: 325px;
     border-radius: 48px;
+}
+
+/* Stats Section */
+
+.stats-section{
+    background-color: rgb(78, 71, 255, 0.1);
+    padding: 80px 50px;
+    border-radius: 12px;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 140px;
+    margin-right: 159px;
+}
+
+.stats-container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.stats-heading{
+    font-size: 38px;
+    color: #252432;
+    margin-bottom: 40px;
+}
+
+.stats-box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.stats-item h3{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.stats-item p{
+    font-size: 20px;
+    font-weight: 200;
+    color:  rgb(37, 24, 34, 50%);
+    text-align: center;
 }

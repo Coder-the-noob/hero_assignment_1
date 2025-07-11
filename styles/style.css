@@ -249,7 +249,7 @@ main{
     padding: 20px;
     width: 320px;
     height: 240px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 7px 8px rgba(0, 0, 0, 0.1);
     text-align: left;
 
 }
@@ -272,32 +272,35 @@ main{
 
 .reviewer{
     display: flex;
-    align-items: flex-start;
-    gap: 10px;
+    align-items: center;
+    background: white;
+    padding: 16px;
+    border-radius: 12px;
+    max-width: 300px;
+    
 }
 
 .reviewer img{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     object-fit: cover;
+    margin-right: 12px;
 }
 
-.reviewer-info{
+.reviewer-text{
     display: flex;
-    flex-direction:row;
-    justify-content: space-between;
+    flex-direction:column;
 }
-
-.reviewer-info strong{
-    display: inline-block;
-    font-weight: 600;
+.review-name{
+    font-weight: bold;
     color: #252432;
+    font-size: 20px;
 }
 
-.reviewer-info span{
-    color: #999;
-    font-size: small;
+.review-date{
+    color: #8987A1;
+    font-size: 14px;
 }
 
 /* focus section */
@@ -371,7 +374,8 @@ main{
 .contact-form form{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 9px;
+    font-family: 200;
 }
 
 .contact-form label{

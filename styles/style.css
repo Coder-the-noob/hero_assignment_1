@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+
 }
 
 /* Inter Font */
@@ -40,12 +40,13 @@ nav div{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin-top: 30px; */
-    margin-bottom: 150px;
+    margin-top: 30px;
+    margin-bottom: 130px;
 }
 
 .nav-container{
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    padding: 0 40px;
 }
 
 
@@ -62,11 +63,14 @@ nav div{
     background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 40px 20px;
     
 }
 
 .banner-content{
+    
     text-align: center;
+    
 }
 
 .banner-content h1{
